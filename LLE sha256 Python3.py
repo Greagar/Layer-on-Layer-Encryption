@@ -9,7 +9,7 @@ inp = input("Enter something : ")   # Input
 hashSha256 = sha256(inp.encode('utf-8')).hexdigest()
 
 keyLength = int(input("Enter key length : "))   # How many times to loop
-x = 0
+x = 1
 
 # Looping as many times as keyLength
 while (x < keyLength):
